@@ -1,0 +1,37 @@
+body {
+    background: darkolivegreen;
+}
+#whole {
+    width: 1024px;
+    margin: auto;
+}
+
+#whole p {
+    padding: 20px;
+    font-size: 15pt;
+    margin: 0;
+}
+
+#up, #down, #body {
+    background: url(../images/content-box.png) no-repeat;
+}
+
+#up {
+    background-position: -2082px top;
+    padding: 6px 0 0;
+}
+#body{
+    background-position: -1041px top;
+    background-repeat: repeat-y;
+
+}
+#down {
+    background-position: left bottom;
+    padding: 0 0 6px;
+}
+
+
+
+
+
+

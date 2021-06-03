@@ -1,0 +1,262 @@
+body {
+    background: #ffb744 url(../images/bg-body.jpg) repeat left bottom;
+    font-family: "Times New Roman", Times, serif;
+    margin: 0;
+}
+
+#background {
+    background: url(../images/bg-pattern.jpg) repeat-x center top;
+    min-height: 1318px;
+}
+
+#page {
+    width: 1024px;
+    margin: 0 auto;
+}
+
+img {
+    border: 0;
+}
+
+/*------------------------------ Sprites ------------------------------*/
+
+#top, #bottom, #body {
+    background: url(../images/content-box.png) no-repeat;
+}
+
+
+/*------------------------------ HEADER ------------------------------*/
+
+#header {
+    margin-bottom: 20px;
+    padding-top: 20px;
+    font-size: 16px;
+}
+
+img {
+    border: 0px;
+}
+
+#header > img {
+    border: 4px solid wheat;
+}
+
+#header h1 {
+    text-align: center;
+    background-color: antiquewhite;
+    margin-bottom: 0;
+}
+
+/*---------Content-----------*/
+
+#content {
+    display: inline-block;
+    width: 1024px;
+    margin: 0;
+}
+
+#content, #header h1 {
+    color: #316e66;
+    font: 26px/30px "Times New Roman", Times, serif;
+    margin: 18px 0 20px;
+    padding-left: 2px;
+
+}
+
+#header h1 {
+    text-transform: uppercase;
+}
+
+#body h1, #content h2 {
+    color: #316e66;
+    font: 30px/30px "Times New Roman", Times, serif;
+    margin: 0 0 18px;
+    text-transform: uppercase;
+}
+
+#content h2 {
+    font-size: 22px;
+    margin: 0 0 30px;
+}
+
+#content h2 a {
+    color: #2c9688;
+    text-decoration: none;
+}
+
+#content p{
+    color: #5a4535;
+    font-size: 17px;
+    line-height: 30px;
+    margin: 0;
+    padding: 0 0 24px 2px;
+}
+
+.read-more {
+    display: inline-block;
+    position: absolute;
+    bottom: 38px;
+}
+
+.read-more a {
+    box-shadow: inset 0 0 0 1px #000000;
+    border-radius: 4px;
+    padding: 10px;
+    color: #2c9688;
+    font-size: 18px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.read-more a:hover {
+    background-color: #6de3d5;
+}
+
+
+/*----------content-background-------->*/
+
+#top {
+    background-position: -2082px top;
+    padding: 6px 0 0;
+}
+
+#body {
+    background-position: -1041px top;
+    background-repeat: repeat-y;
+    padding: 30px 40px 0;
+}
+
+#bottom {
+    background-position: left bottom;
+    padding: 0 0 6px;
+}
+
+#stories {
+    margin: 0;
+    list-style: none;
+    padding: 0;
+}
+
+#stories li {
+    display: inline-block;
+    width: 944px;
+    border-top: 1px solid #b7b7b7;
+    padding: 30px 0;
+    position: relative;
+}
+
+#stories li:first-child {
+    border-top: 0;
+}
+
+#stories li img {
+    float: left;
+    border: 1px solid #2c9688;
+    margin-right: 15px;
+}
+
+
+/*----------------footer-------------------*/
+
+
+#footer {
+    height: 300px;
+    width: 1000px;
+    margin: 0 auto 40px;
+    background-image: url(../images/overlay2.png), url(../images/overlay4.svg),
+    linear-gradient(45deg, #4361c2, #4fa49a 50%, #9dc66b 95%);
+}
+
+#footer p{
+    color: #5a4535;
+    font-size: 17px;
+    line-height: 30px;
+    padding: 60px 24px 2px;
+    margin: 0;
+    text-align: center;
+}
+#share-your-story {
+    text-align: center;
+}
+
+#share-your-story a {
+    display: inline-block;
+    box-shadow: inset 0 0 0 1px #000000;
+    border-radius: 4px;
+    padding: 10px;
+    font-size: 24px;
+    text-decoration: none;
+    color: #1d5a50;
+    text-transform: uppercase;
+}
+
+#share-your-story a:hover {
+    background-color: #75efe1;
+}
+
+#follow {
+    text-align: center;
+    margin-top: 2px;
+    line-height: 26px;
+}
+
+#follow a{
+    background: url(../images/icons.png);
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    margin-left: 12px;
+}
+
+#footer h3{
+    color: #1d5a50;
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 0;
+}
+
+#follow a.pinterest{
+    background-position: 0 -33px;
+}
+
+#follow a.facebook {
+    background-position: 0 -98px;
+}
+
+#follow a.twitter {
+    background-position: 0 -163px;
+}
+
+#follow a.g-plus {
+    background-position: 0 -230px;
+}
+
+
+#follow a.pinterest:hover {
+    background-position: 0 0;
+}
+
+#follow a.facebook:hover {
+    background-position: 0 -65px;
+}
+
+#follow a.twitter:hover {
+    background-position: 0 -131px;
+}
+
+#follow a.g-plus:hover {
+    background-position: 0 -197px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
